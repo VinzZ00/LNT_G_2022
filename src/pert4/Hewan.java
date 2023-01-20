@@ -1,4 +1,4 @@
-package pert4ObjectPack;
+package pert4;
 
 import pert5Interface.interface1;
 

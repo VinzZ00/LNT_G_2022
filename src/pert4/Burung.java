@@ -7,6 +7,7 @@ public class Burung extends Hewan {
 
 	private int jumlahSayap;
 	
+	@Override
 	public void suara() {
 		System.out.println("Chirp - Chirp");
 	}
@@ -22,6 +23,13 @@ public class Burung extends Hewan {
 
 	public void setJumlahSayap(int jumlahSayap) {
 		this.jumlahSayap = jumlahSayap;
+	}
+
+
+	@Override
+	public double pajakCalc(double Penghasilan) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	

@@ -22,6 +22,13 @@ public class Kucing extends Hewan {
 	public void suara() {
 		System.out.println("Meow Meow");
 	}
+
+
+	@Override
+	public double pajakCalc(double Penghasilan) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 	
 
 	

@@ -1,8 +1,6 @@
-package pert4ObjectPack;
+package pert5Interface;
 
-import pert5Interface.interface1;
-
-abstract public class Hewan implements interface1 {
+abstract public class Hewan2 implements interface1 {
 
 	// public, protected, default(no access Mod), private
 	public int jumlahKaki, umurHewan;
@@ -10,14 +8,14 @@ abstract public class Hewan implements interface1 {
 	protected int jumlahMata;
 	
 	// Constructor
-	public Hewan(int jumlahKaki, int umurHewan, String berkembangBiak) {
+	public Hewan2(int jumlahKaki, int umurHewan, String berkembangBiak) {
 		super();
 		this.jumlahKaki = jumlahKaki;
 		this.umurHewan = umurHewan;
 		this.berkembangBiak = berkembangBiak;
 	}
 	
-	public Hewan() {
+	public Hewan2() {
 		
 	}
 	

@@ -1,0 +1,46 @@
+pert 4 Kemarin, Review
+
+OOP Object Oriented Programming
+
+1. Encapsulation
+ konsep dimana kita akan mengelompokan berberapa variable yang gunanya untuk menjelaskan sebuah object
+memiliki berberapa komponen antara lain:
+ a. Constructor
+ b. field (variable) /variable global suatu kelas.
+ c. Method (Behavior)
+ d. Access Modifier
+disimpen dalam Class
+dan dibuat menjadi cetakan suatu object.
+
+2. Inheritance
+ Konsepnya berkata bahwa setiap field dan behavior dari parent class akan di turunkan kepada child class.
+ instance of (operasi untuk mengecek apakah suatu kelas merupakan child dari kelas lain)	
+
+abstract Class (ini merupakan kelas yang harus di extend dan tidak bisa di instantiate (mengunakan new) untuk membuat object secara langsung
+
+dalam abstract Class terdapat abstract method (method yang tidak mempunyai body)
+
+bodynya akan di definisikan di child class (class yang mengekstend)
+
+abstract class di kenali dengan penambahan keyword "abstract" pada defini kelas sebelum keyword "class"
+
+di java ada 3 yang bisa di jadikan parent
+
+mengunakan extends itu akan melakukan extends terhadap sebuah class, hanya bisa tertuju pada 1 class
+
+mengunakan implements, ini bisa melakukan extensi terhadap 1 atau lebih interface. 
+
+interface mirip dengan abstract class, dalamnya itu berisi hanya abstract method, hanya ada variable global final (variable yang tidak bisa di ubah lagi valuenya)
+
+
+
+3. Polymorph (Hari ini dipelajari) 
+ a. Override
+	kita menganti body dari sebuah method yang awalnya sudah memiliki body ataupun yang belum memiliki body
+ b. Overload
+
+Function mirip dengan method, cuma berdiri independent
+
+parameter method didalamnya itu cuma bisa diisi dengan data type, tidak bisa diisi dengan method (Java, dan Bahasa yang tidak merupakan functional Prog)
+
+kalo di functional prog, kalian bisa ngasih fungsi sebagai sebuah param, (pyhton, javascript, golang, C)
